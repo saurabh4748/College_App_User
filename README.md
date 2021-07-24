@@ -28,13 +28,13 @@ It acts as a University assistant for Students. It is also useful for the parent
 - Share
 
 
-<img src = "/Images/0.jpg" width="235" height="500"/> <img src = "/Images/1.jpg" width="235" height="500"/> <img src = "/Images/2.jpg" width="235" height="500"/>
+<img src = "/Images/0.jpeg" width="235" height="500"/> <img src = "/Images/1.jpeg" width="235" height="500"/> <img src = "/Images/2.jpeg" width="235" height="500"/>
 
-<img src = "/Images/3.jpg" width="235" height="500"/> <img src = "/Images/4.jpg" width="235" height="500"/> <img src = "/Images/5.jpg" width="235" height="500"/>
+<img src = "/Images/3.jpeg" width="235" height="500"/> <img src = "/Images/4.jpeg" width="235" height="500"/> <img src = "/Images/5.jpeg" width="235" height="500"/>
 
-<img src = "/Images/6.jpg" width="235" height="500"/> <img src = "/Images/7.jpg" width="235" height="500"/> <img src = "/Images/8.jpg" width="235" height="500"/>
+<img src = "/Images/6.jpeg" width="235" height="500"/> <img src = "/Images/7.jpeg" width="235" height="500"/> <img src = "/Images/8.jpeg" width="235" height="500"/>
 
-<img src = "/Images/9.jpg" width="235" height="500"/> <img src = "/Images/10.jpg" width="235" height="500"/> 
+<img src = "/Images/9.jpeg" width="235" height="500"/> <img src = "/Images/10.jpeg" width="235" height="500"/> 
 
 
 ## Maintainers and Developers
