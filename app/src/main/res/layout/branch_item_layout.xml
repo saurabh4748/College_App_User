@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="10dp"
+         android:orientation="vertical"
+         android:background="@drawable/curve"
+         android:backgroundTint="@color/grey2"
+         android:padding="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:id="@+id/branch_icon"
+            android:layout_marginRight="@dimen/text_margin"
+            android:src="@drawable/ic_computer"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Courses"
+            android:id="@+id/branch_title"
+            android:textSize="@dimen/title_size2"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/textColor"
+            android:fontFamily="@string/bold"/>
+
+    </LinearLayout>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/about_clg"
+             android:id="@+id/branch_desc"
+             android:layout_marginTop="@dimen/text_margin"
+             android:textSize="@dimen/text_size"
+             android:layout_gravity="center_horizontal"
+             android:textColor="@color/textColor"
+             android:fontFamily="@string/light"
+             android:justificationMode="inter_word"/>
+
+     </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

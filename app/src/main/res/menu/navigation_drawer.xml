@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigation_eLibrary"
+        android:title="e-Library"
+        android:icon="@drawable/papers"/>
+
+    <item android:id="@+id/navigation_prevPaper"
+        android:title="Previous Year Papers"
+        android:icon="@drawable/ebook"/>
+
+    <item android:id="@+id/navigation_results"
+        android:title="Results"
+        android:icon="@drawable/notepad"/>
+
+    <item android:id="@+id/navigation_website"
+        android:title="Website"
+        android:icon="@drawable/website"/>
+
+    <item android:id="@+id/navigation_share"
+        android:title="Share"
+        android:icon="@drawable/share"/>
+
+    <item android:id="@+id/navigation_developer"
+        android:title="Developer"
+        android:icon="@drawable/developer"/>
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Developer">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="20dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/developer_image"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/my_img" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_margin="3dp"
+        android:padding="20dp">
+
+
+        <TextView
+            android:id="@+id/full_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@string/bold"
+            android:includeFontPadding="false"
+            android:text="Saurabh Pandey"
+            android:textColor="@color/purple_700"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/full_name"
+            android:textAllCaps="true"
+            android:layout_marginTop="50dp"
+            android:layout_centerInParent="true"
+            android:includeFontPadding="false"
+            android:text="App Developer"
+            android:textColor="@color/grey1"
+            android:textSize="@dimen/title_size2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:includeFontPadding="false"
+            android:text="pandey.saurabh4748@gmail.com"
+            android:textColor="@color/grey1"
+            android:textSize="@dimen/title_size2" />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment"
+    android:background="@color/purple_700">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:padding="@dimen/text_margin"
+      android:orientation="vertical"
+      android:background="@drawable/curve">
+
+      <com.google.android.material.card.MaterialCardView
+          android:layout_width="match_parent"
+          android:layout_marginVertical="8dp"
+          android:layout_height="280dp">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Fest"
+                  android:textAllCaps="true"
+                  android:layout_marginTop="@dimen/text_margin"
+                  android:textSize="@dimen/title_size"
+                  android:layout_gravity="center_horizontal"
+                  android:textColor="@color/purple_700"
+                  android:fontFamily="@string/bold"/>
+
+              <View
+                  android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:layout_marginVertical="4dp"
+                  android:background="@color/grey1"/>
+
+              <androidx.recyclerview.widget.RecyclerView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/festRecycler"/>
+
+
+
+          </LinearLayout>
+
+
+
+      </com.google.android.material.card.MaterialCardView>
+
+      <com.google.android.material.card.MaterialCardView
+          android:layout_width="match_parent"
+          android:layout_marginVertical="8dp"
+          android:layout_height="280dp">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Campus"
+                  android:layout_marginTop="@dimen/text_margin"
+                  android:textSize="@dimen/title_size"
+                  android:layout_gravity="center_horizontal"
+                  android:textColor="@color/purple_700"
+                  android:textAllCaps="true"
+                  android:fontFamily="@string/bold"/>
+
+              <View
+                  android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:layout_marginVertical="4dp"
+                  android:background="@color/grey"/>
+
+              <androidx.recyclerview.widget.RecyclerView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/campusRecycler"/>
+
+
+
+          </LinearLayout>
+
+
+
+      </com.google.android.material.card.MaterialCardView>
+
+      <com.google.android.material.card.MaterialCardView
+          android:layout_width="match_parent"
+          android:layout_marginVertical="8dp"
+          android:layout_height="280dp">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="sports meet"
+                  android:layout_marginTop="@dimen/text_margin"
+                  android:textSize="@dimen/title_size"
+                  android:layout_gravity="center_horizontal"
+                  android:textColor="@color/purple_700"
+                  android:textAllCaps="true"
+                  android:fontFamily="@string/bold"/>
+
+              <View
+                  android:layout_width="match_parent"
+                  android:layout_height="1dp"
+                  android:layout_marginVertical="4dp"
+                  android:background="@color/grey"/>
+
+              <androidx.recyclerview.widget.RecyclerView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/sportsRecycler"/>
+
+
+
+          </LinearLayout>
+
+
+
+      </com.google.android.material.card.MaterialCardView>
+
+
+  </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">PUSSGRC</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/robotobold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/robotolight</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/robotoregular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="about_clg">Panjab University opened a Regional Centre for imparting quality technical education to Hoshiarpur with the name of Swami Sarvanand Giri Panjab University Regional Centre in year 2006 with four branches of engineering. In 2007 Panjab university started two new courses in LAW as BALLB 5 year integrated course and 3 Years LLB course, and Master of computer applications (MCA). The vison of Regional Centre has been made keeping in mind Vision 2020 of Panjab University.</string>
+</resources>
